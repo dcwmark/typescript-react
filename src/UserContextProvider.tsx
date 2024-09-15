@@ -31,6 +31,9 @@ export const UserProvider = (props: Props) => {
   const [users, setUsers] = useState<User[] | null>(null);
 
   useEffect(() => {
+    // In reality, this would be where the actual code for
+    // the data fetching and set the Users array with the 
+    // returned data.
     setUsers([{
       name: 'pedro',
       age: 22,

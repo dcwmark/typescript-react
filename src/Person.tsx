@@ -1,6 +1,7 @@
 import { User } from "./UserContextProvider";
 
 export const Person = (props: User) => {
+
   return (
     <div>
       <p>Name: { props.name }</p>
